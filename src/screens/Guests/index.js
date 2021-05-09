@@ -33,7 +33,7 @@ const GuestsScreen = () => {
                 </View>
                 </View>
             </View>
-                <Pressable style={styles.searchButton} onPress={()=>{console.warn('search btn clicked')}}>
+                <Pressable style={styles.searchButton} onPress={()=>navigation.navigate('Search Results')}>
                     <Text style={styles.searchButtonText}>Search</Text>
                 </Pressable>
               
