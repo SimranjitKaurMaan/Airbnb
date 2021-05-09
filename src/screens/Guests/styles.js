@@ -36,7 +36,24 @@ const styles = StyleSheet.create({
     sign:{
         fontSize: 20,
         color: 'grey'
-    }
+    },
+    searchButton:
+      { 
+        marginBottom: 20,
+        backgroundColor: '#f15454', 
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: 50, 
+        marginHorizontal: 20, 
+        borderRadius: 10
+      },
+      searchButtonText:
+      {
+        fontSize: 20, 
+        color: 'white', 
+        fontWeight: 'bold'
+      }
+    
 })
 
 export default styles
